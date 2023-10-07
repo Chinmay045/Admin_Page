@@ -135,6 +135,57 @@ display: flex;
     }
 }
 
+.menu-admin{
+    margin-top: 1rem;
+    h2{
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
 
+    .menu{
+        list-style: none;
+        padding: 0;
+        >li{
+    padding: .5em;
+    &:hover {
+        ul{
+            display: block;
+           
+            
+        }
+    }
+
+    ul{
+        display: none;
+        padding: 1rem;
+        list-style: none;
+        background-color: darken($darkGray,20%);
+        margin-top: 1rem;
+
+        li{
+            margin-bottom: 1rem;
+            &:last-of-type{
+                margin-bottom: 0;
+            }
+        }
+      
+    }
+            a{
+                color: $white;
+                text-decoration: none;
+                padding: .5rem;
+                transition: all .9s ease;
+                &:hover{
+                    background-color: $primary;
+                    padding-left: 2rem;
+                }
+                
+            }
+         
+
+        }
+    }
+}
 
 
