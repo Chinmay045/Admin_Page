@@ -49,3 +49,49 @@ img {
         }
     }
 }
+
+.bar{
+  display: flex;
+  flex: 1; 
+background-color: $primary;
+justify-content: space-between;
+
+.left-content{
+display: flex;
+align-items: center;
+color: white;
+padding-left: 1rem;
+.fa-arrow-right{
+    display: none;
+    
+}
+}
+
+.right-content{
+display: flex;
+
+.box{
+    display: flex;
+    padding: 0 1rem;
+    align-items: center;
+    &:hover {
+        background-color: $secondary;
+        text-decoration: underline ;
+    }
+    a{
+        color: $white;
+        display: flex;
+       text-decoration: none;
+       display: flex;
+       align-items: center;
+       span{
+        background-color: $tertiary;
+        padding: .5rem;
+        border-radius: 50%;
+        margin-left: .5rem;
+       }
+    }
+}
+}
+}
+

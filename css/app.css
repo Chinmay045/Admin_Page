@@ -54,3 +54,44 @@ img {
     display: none;
   }
 }
+
+.bar {
+  display: flex;
+  flex: 1;
+  background-color: #005b9f;
+  justify-content: space-between;
+}
+.bar .left-content {
+  display: flex;
+  align-items: center;
+  color: white;
+  padding-left: 1rem;
+}
+.bar .left-content .fa-arrow-right {
+  display: none;
+}
+.bar .right-content {
+  display: flex;
+}
+.bar .right-content .box {
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+}
+.bar .right-content .box:hover {
+  background-color: #003f8c;
+  text-decoration: underline;
+}
+.bar .right-content .box a {
+  color: #FFFFFF;
+  display: flex;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.bar .right-content .box a span {
+  background-color: #009045;
+  padding: 0.5rem;
+  border-radius: 50%;
+  margin-left: 0.5rem;
+}
