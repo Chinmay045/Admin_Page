@@ -172,3 +172,46 @@ img {
   border-radius: 10px;
   border: none;
 }
+
+.menu-admin {
+  margin-top: 1rem;
+}
+.menu-admin h2 {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.menu-admin .menu {
+  list-style: none;
+  padding: 0;
+}
+.menu-admin .menu > li {
+  padding: 0.5rem;
+}
+.menu-admin .menu > li:hover ul {
+  display: block;
+}
+.menu-admin .menu > li ul {
+  display: none;
+  list-style: none;
+  padding: 1rem;
+  background-color: #040404;
+  margin-top: 1rem;
+}
+.menu-admin .menu > li ul li {
+  margin-bottom: 1rem;
+}
+.menu-admin .menu > li ul li:last-of-type {
+  margin-bottom: 0;
+}
+.menu-admin .menu > li a {
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0.5rem;
+  -webkit-transition: padding-left 0.3s ease, background-color 0.3s ease-in-out;
+  transition: padding-left 0.3s ease, background-color 0.3s ease-in-out;
+}
+.menu-admin .menu > li a:hover {
+  background-color: #005b9f;
+  padding-left: 2rem;
+}
